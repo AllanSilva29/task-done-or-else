@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 const API_URL = 'https://api.groq.com/openai/v1/chat/completions';
-const LLM_MODEL = 'llama-3.3-70b-versatile';
+const LLM_MODEL = 'qwen-2.5-32b';
 const API_KEY = process.env.REACT_APP_GROQ_API_KEY;
 
 const Chat = ({ tasks }) => {
